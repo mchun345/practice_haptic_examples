@@ -40,8 +40,8 @@ CountdownTimer    haptic_timer;
 PShape            pantograph, joint1, joint2, handle;
 PShape            wall; 
 
-//int               pixelsPerMeter       = 4000; //Example's screen
-int               pixelsPerMeter       = 6857;
+int               pixelsPerMeter       = 4000; //Example's screen
+//int               pixelsPerMeter       = 6857;
 float             radsPerDegree        = 0.01745; 
 
 float             l                    = .05; // in m: these are length for graphic objects
@@ -76,8 +76,8 @@ void setup() {
 
   /* Setup for the graphic display window and drawing objects */
   /* 20 cm x 15 cm */
-  //size(1057, 594, P2D); //px/m*m_d = px, these params chosen for SI in comment above
-  size(1920, 1080, P2D); //feels comparable to original dimensions, just fuller screen 
+  size(1057, 594, P2D); //px/m*m_d = px, these params chosen for SI in comment above
+  //size(1920, 1080, P2D); //feels comparable to original dimensions, just fuller screen 
   background(0); //color of background
   frameRate(baseFrameRate); //in this case 120 ... b/c simple graphics?
   
